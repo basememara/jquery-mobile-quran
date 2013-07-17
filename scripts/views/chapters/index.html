@@ -1,0 +1,17 @@
+﻿<ul data-role="listview" data-inset="true" id="chapters-index">
+    # for (var i = 0; i < data.length; i++) { #
+    <li data-icon="false"
+        data-item="#= data[i].Id #"
+        data-sort-id="#= data[i].Id #"
+        data-sort-name="#= data[i].Name #"
+        data-sort-verses="#= data[i].Verses #"
+        data-sort-chronology="#= data[i].Chronology #"
+        data-sort-period="#= data[i].Period #"><a href="../dialogs/chapter.html">
+        <h2>#= data[i].Id # - #= data[i].Name # - #= data[i].Arabic #</h2>
+        <p><strong>#= data[i].Translation #</strong></p>
+        <p>Verses: #= data[i].Verses # - 
+            Chronology: #= data[i].Chronology # - 
+            Period: #= data[i].Period #</p>
+    </a></li>
+    # } #
+</ul>

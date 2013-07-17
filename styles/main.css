@@ -1,0 +1,16 @@
+﻿.container-img {
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-img img {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+}
+
+.hijri-date {
+    width: 100%;
+    text-align: center;
+}

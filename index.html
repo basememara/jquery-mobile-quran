@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>iMuslim</title>
+    
+    <!-- CSS -->
+    <!--<link href="scripts/libs/jquery.mobile/flat/jquery.mobile.flatui.min.css" rel="stylesheet" />-->
+    <link href="scripts/libs/jquery.mobile/graphite/slate/jquery.mobile-1.3.1.css" rel="stylesheet" />
+    <!--<link href="scripts/libs/jquery.mobile/jquery.mobile-1.3.1.min.css" rel="stylesheet" />-->
+    <link href="scripts/libs/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="styles/jqm-override.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+    
+    <!-- JS -->
+    <script src="scripts/libs/jquery/jquery-1.9.1.min.js"></script>
+    <script src="scripts/libs/jquery.mobile/jquery.mobile-1.3.1.min.js"></script>
+  
+	<!-- IE Hacks -->
+    <!--[if lt IE 9]>
+        <script src="scripts/libs/html5shiv/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div data-role="page" id="home">
+        <div data-role="panel" id="menu-panel" data-position="left" data-display="reveal">
+            <ul data-role="listview" data-icon="false">
+                <li data-role="list-divider">The Qur'an</li>
+                <li><a href="pages/chapters.html">Chapters <span class="ui-li-count">12</span></a></li>
+                <li><a href="pages/special-verses.html">Verses <span class="ui-li-count">35</span></a></li>
+                <li><a href="pages/divine-prayers.html">Supplications <span class="ui-li-count">17</span></a></li>
+                <li><a href="pages/o-believers.html">'O Believers <span class="ui-li-count">17</span></a></li>
+                <li><a href="pages/believers-say.html">Believers "Say" <span class="ui-li-count">15</span></a></li>
+                <li><a href="pages/divine-promises.html">Divine Promises <span class="ui-li-count">25</span></a></li>
+                <li><a href="pages/most-repeated.html">Most Repeated <span class="ui-li-count">26</span></a></li>
+                <li><a href="pages/chronology.html">Miscellaneous</a></li>
+                <li data-role="list-divider">The Messenger</li>
+                <li><a href="pages/daily-verse.html">40 Hadith Qudsi</a></li>
+                <li><a href="pages/daily-hadith.html">Prophetic Timeline</a></li>
+                <li><a href="pages/daily-hadith.html">The Last Sermon</a></li>
+                <li data-role="list-divider">My Progress</li>
+                <li><a href="pages/recitation.html">Recitation <span class="ui-li-count">9</span></a></li>
+                <li><a href="pages/memorization.html">Memorization <span class="ui-li-count">9</span></a></li>
+                <li><a href="pages/reviving-sunnah.html">Sunnah <span class="ui-li-count">34</span></a></li>
+                <li data-role="list-divider">My Ummah</li>
+                <li><a href="pages/current-events.html">Current Events <span class="ui-li-count">9</span></a></li>
+                <li><a href="pages/islamic-history.html">Islamic History</a></li>
+                <li><a href="pages/calendar-dates.html">Calendar <span class="ui-li-count">16</span></a></li>
+                <li><a href="pages/favorite-links.html">Links <span class="ui-li-count">62</span></a></li>
+            </ul>
+        </div>
+        
+        <div data-role="header" data-position="fixed">
+            <a href="#menu-panel" data-role="button" data-icon="bars" data-iconpos="notext" data-inline="true">Main Menu</a>
+            <h1>iMuslim</h1>
+            <a href="dialogs/options.html" data-role="button" data-icon="gear" data-iconpos="notext" data-inline="true" data-rel="dialog" data-transition="flip">Home</a>
+        </div>
+
+        <div data-role="content"></div>
+        
+        <div data-role="footer" data-position="fixed">
+	        <div data-role="navbar">
+		        <ul>
+			        <li><a href="a.html">Info</a></li>
+			        <li><a href="b.html">Help</a></li>
+			        <li><a href="c.html">Terms</a></li>
+			        <li><a href="d.html">Feedback</a></li>
+		        </ul>
+	        </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="scripts/libs/require/require.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

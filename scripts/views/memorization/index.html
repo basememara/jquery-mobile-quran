@@ -1,0 +1,10 @@
+﻿<form>
+    <fieldset data-role="controlgroup">
+        <legend>Select memorized chapters:</legend>
+        # for (var i = 0; i < data.length; i++) { #
+            <input type="checkbox" name="#= data[i].Id #" id="chapter#= data[i].Id #" />
+            <label for="chapter#= data[i].Id #">
+                #= data[i].Id # - #= data[i].Name # (#= data[i].Translation #) - #= data[i].Arabic #</label>
+        # } #
+    </fieldset>
+</form>

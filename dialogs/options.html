@@ -1,0 +1,41 @@
+﻿<div data-role="dialog">
+	
+	<div data-role="header" data-theme="d">
+		<h1>Options</h1>
+	</div>
+
+	<div data-role="content">
+        <fieldset data-role="controlgroup">
+            <legend>Options:</legend>
+            <label for="text-basic">Text input:</label>
+            <input type="text" name="text-basic" id="text-basic" value="">
+            <label for="number-pattern">Number + [0-9]* pattern:</label>
+            <input type="number" name="number" pattern="[0-9]*" id="number-pattern" value="">
+            <input type="checkbox" name="checkbox-1a" id="checkbox-1a" checked="">
+            <label for="checkbox-1a">Cheetos</label>
+            <input type="checkbox" name="checkbox-2a" id="checkbox-2a">
+            <label for="checkbox-2a">Doritos</label>
+            <input type="checkbox" name="checkbox-3a" id="checkbox-3a">
+            <label for="checkbox-3a">Fritos</label>
+            <input type="checkbox" name="checkbox-4a" id="checkbox-4a">
+            <label for="checkbox-4a">Sun Chips</label>
+            <input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked">
+            <label for="radio-choice-1">Cat</label>
+            <input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2">
+            <label for="radio-choice-2">Dog</label>
+            <input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3">
+            <label for="radio-choice-3">Hamster</label>
+            <input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4">
+            <label for="radio-choice-4">Lizard</label>
+            <label for="select-choice-1" class="select">Select, native menu</label>
+            <select name="select-choice-1" id="select-choice-1">
+                <option value="standard">Standard: 7 day</option>
+                <option value="rush">Rush: 3 days</option>
+                <option value="express">Express: next day</option>
+                <option value="overnight">Overnight</option>
+            </select>
+        </fieldset>
+		<a href="dialog/index.html" data-role="button" data-rel="back" data-theme="b">Save</a>       
+		<a href="dialog/index.html" data-role="button" data-rel="back" data-theme="c">Cancel</a>    
+	</div>
+</div>
